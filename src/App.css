@@ -1,38 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 .App {
-  text-align: center;
+  font-family: poppins;
+  margin-top: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.head {
+  margin: 70px;
+  margin-top: 100px;
+  text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.auth-form-container {
+  padding: 1.5rem;
+  border: 1px solid rgb(177, 173, 173);
+  border-radius: 10px;
+  margin: 70px;
+  width: 500px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.body {
+  text-align: left;
+  margin-top: -30px;
+}
+
+.links {
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  cursor: pointer;
+  justify-content: space-between;
+  font-size: large;
+  color: rgb(102, 98, 98);
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.link1 img {
+  height: 40px;
+  width: auto;
+  margin-top: -12px;
+  margin-right: 5px;
+}
+
+.link2 img {
+  height: 40px;
+  width: auto;
+  margin-top: -10px;
+}
+
+.link3 img {
+  height: 40px;
+  width: auto;
+  margin-top: -2px;
+}
+
+.verticle-line {
+  display: block;
+  width: 1px;
+  height: 40px;
+  margin-top: -10px;
+  background-color: #c9c9c9;
+}
+
+.balance {
+  margin: 70px;
+}
+
+.hover {
+  background-color: rgb(54, 53, 53);
   color: white;
+  display: inline-block;
+  height: 50px;
+  width: auto;
+  border-radius: 10px;
+  text-align: justify;
+  margin: 10px;
+  padding: 7px;
 }
 
-.App-link {
-  color: #61dafb;
+span {
+  display: inline-block;
+  margin-top: 27px;
+  margin-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.credit {
+  display: flex;
+  flex-direction: row;
+}
+
+.dollars {
+  margin-top: -50px;
 }
